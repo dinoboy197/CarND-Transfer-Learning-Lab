@@ -4,6 +4,12 @@
 
 In other autonomous vehicle software stacks, I have built, trained, and operated various deep neural networks from scratch for image classification tasks, using training data I have either obtained from others or generated myself ([traffic sign classification](https://github.com/dinoboy197/CarND-Traffic-Sign-Classifier-Project), [vehicle detection and tracking](https://github.com/dinoboy197/CarND-Vehicle-Detection), etc). However, many deep learning tasks can use pre-existing trained neural networks from some other similar task, and with some tweaks to the network itself, can significantly reduce the effort and shorten the time to production. **Transfer learning** is the technique of modifying and re-purposing an existing network for a new task.
 
+[//]: # (Image References)
+
+[transfer]: ./transfer.png "Transfer Learning"
+
+![Transfer Learning][transfer]
+
 Some popular high-performance networks include [VGG](https://arxiv.org/pdf/1409.1556.pdf), [GoogLeNet](https://arxiv.org/pdf/1409.4842.pdf), and [ResNet](https://arxiv.org/pdf/1512.03385.pdf). Models for these networks were previously trained for days or weeks on the [ImageNet dataset](http://www.image-net.org/). The trained weights encapsulate higher-level features learned from training on thousands of classes, yet they can be adapted to be used for other datasets as well.
 
 ## Example pre-trained networks
